@@ -78,6 +78,12 @@
 .yellow-gradient-right{
   background-image: linear-gradient(to right, white 98%, #EFC81A 2%);
 }
+/* .yellow-gradient-right-big{
+  background-image: linear-gradient(to right, white 20%, #EFC81A 80%);
+} */
+.yellow-gradient-right-big{
+  background-image: linear-gradient(to left, #EFC81A 80%, white  20%);
+}
 
 .yellow-gradient-left{
   background-image: linear-gradient(to left, white 98%, #EFC81A 2%);
