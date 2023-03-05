@@ -3,6 +3,11 @@
   font-family: Poppins !important;
 } */
 
+/* VVV uncomment to see outline of all elements VVV */
+/* * {
+  outline: 1px red solid;
+} */
+
 .box {
   background-color: lightblue;
   border: 1px solid blue;
@@ -34,6 +39,15 @@
   text-align: left;
 }
 
+.text-title-thicker {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
 .text-content {
   font-family: Poppins;
   font-size: 24px;
@@ -41,6 +55,14 @@
   line-height: 36px;
   letter-spacing: 0em;
   text-align: left;
+}
+
+.current {
+  color: black !important;
+}
+
+.not-current {
+  color: grey !important;
 }
 
 .pale-bg {
